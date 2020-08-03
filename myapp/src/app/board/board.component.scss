@@ -1,10 +1,17 @@
 main {
+  padding: 20px;
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-gap: 0px;
+  margin: auto 270px;
+  z-index: -1;
 }
 
 app-square {
   border: 1px gray solid;
   height: 200px;
+}
+h2{
+  margin: auto 378px -200px;
+  z-index: 1;
 }

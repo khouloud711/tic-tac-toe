@@ -1,9 +1,9 @@
-<h1>Current Player: {{ player }} </h1>
+<h1>Current Player: <br> {{ player }} </h1>
 
 <button nbButton outline status="danger" (click)="newGame()">Start new Game</button>
 
 
-<h2 *ngIf="winner">
+<h2 class="wow animate__heartBeat" data-wow-duration="2s" *ngIf="winner" >
     Player {{ winner }} won the game!
 </h2>
 
